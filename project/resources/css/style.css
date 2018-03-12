@@ -18,8 +18,6 @@ body{
 
 .container{
   margin-top: 5.2rem;
-  width: 100%;
-  background-color: black;
 }
 
 /* description section*/
@@ -37,4 +35,24 @@ h4{
 
 p{
   color: rgb(74, 74, 74);
+}
+
+/*Cards section*/
+
+.card{
+  display: flex;
+  height: 12.5rem;
+  width: 12rem;
+  background-color: rgb(32, 64, 86);
+  margin: 0.5rem;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.card:hover{
+  cursor:none;
 }
